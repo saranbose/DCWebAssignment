@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>DatacomWebTest</td>
+        <td>1</td>
+      <td>31 Jul 2022, 16:47</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.close_the_browser()</td>
+              <td>5</td>
+              <td class="duration" data-value="307779760">0.307</td>
+              <td class="duration" data-value="307779760">0.489</td>
+              <td class="duration" data-value="1538898800">1.538</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.current_balance_of_everyday_and_bills_account_should_be_correct()</td>
+              <td>1</td>
+              <td class="duration" data-value="24018500">0.024</td>
+              <td class="duration" data-value="24018500">0.024</td>
+              <td class="duration" data-value="24018500">0.024</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.demo_bnz_webpage_is_opened()</td>
+              <td>5</td>
+              <td class="duration" data-value="2320060800">2.320</td>
+              <td class="duration" data-value="2320060800">2.810</td>
+              <td class="duration" data-value="11600304000">11.600</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.i_add_payee_details()</td>
+              <td>2</td>
+              <td class="duration" data-value="939040400">0.939</td>
+              <td class="duration" data-value="939040400">1.028</td>
+              <td class="duration" data-value="1878080800">1.878</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.i_add_payee_details_with_mandatory_fields_entered()</td>
+              <td>1</td>
+              <td class="duration" data-value="421498500">0.421</td>
+              <td class="duration" data-value="421498500">0.421</td>
+              <td class="duration" data-value="421498500">0.421</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.i_add_payee_details_with_no_values_entered()</td>
+              <td>1</td>
+              <td class="duration" data-value="283000300">0.283</td>
+              <td class="duration" data-value="283000300">0.283</td>
+              <td class="duration" data-value="283000300">0.283</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.i_click_name_header()</td>
+              <td>1</td>
+              <td class="duration" data-value="36433300">0.036</td>
+              <td class="duration" data-value="36433300">0.036</td>
+              <td class="duration" data-value="36433300">0.036</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.i_make_payment_transfer_from_everyday_to_bills_account(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1461462200">1.461</td>
+              <td class="duration" data-value="1461462200">1.461</td>
+              <td class="duration" data-value="1461462200">1.461</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.i_save_current_balance_of_everyday_and_bills_account()</td>
+              <td>1</td>
+              <td class="duration" data-value="1422892100">1.422</td>
+              <td class="duration" data-value="1422892100">1.422</td>
+              <td class="duration" data-value="1422892100">1.422</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.i_select_payees_from_menu()</td>
+              <td>4</td>
+              <td class="duration" data-value="1944589450">1.944</td>
+              <td class="duration" data-value="1944589450">2.276</td>
+              <td class="duration" data-value="7778357800">7.778</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.payee_page_should_be_loaded()</td>
+              <td>1</td>
+              <td class="duration" data-value="77999300">0.077</td>
+              <td class="duration" data-value="77999300">0.077</td>
+              <td class="duration" data-value="77999300">0.077</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.payee_should_get_added()</td>
+              <td>2</td>
+              <td class="duration" data-value="1680724150">1.680</td>
+              <td class="duration" data-value="1680724150">1.689</td>
+              <td class="duration" data-value="3361448300">3.361</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.payees_list_should_be_displayed_in(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="49053850">0.049</td>
+              <td class="duration" data-value="49053850">0.065</td>
+              <td class="duration" data-value="98107700">0.098</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.transfer_should_get_completed_successfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="1674567900">1.674</td>
+              <td class="duration" data-value="1674567900">1.674</td>
+              <td class="duration" data-value="1674567900">1.674</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.validation_error_message_displayed_for_payee_name()</td>
+              <td>1</td>
+              <td class="duration" data-value="51001300">0.051</td>
+              <td class="duration" data-value="51001300">0.051</td>
+              <td class="duration" data-value="51001300">0.051</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.stepDefintion.validation_error_message_is_not_displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="5065799600">5.065</td>
+              <td class="duration" data-value="5065799600">5.065</td>
+              <td class="duration" data-value="5065799600">5.065</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>16</td>
+            <td>30</td>
+            <td class="duration">1.225</td>
+            <td class="duration">11.600</td>
+            <td class="duration">36.773</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

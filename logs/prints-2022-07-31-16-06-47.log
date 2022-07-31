@@ -1,0 +1,25 @@
+16:04:04.479 [main] INFO  java.lang.Class - Driver initialized successfully
+16:04:05.118 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:04:06.758 [main] INFO  java.lang.Class - Current balanced for Everyday and Bills Account saved successfully
+16:05:54.937 [main] INFO  java.lang.Class - Driver initialized successfully
+16:05:55.647 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:05:57.578 [main] INFO  java.lang.Class - Payee selected from Menu
+16:05:57.593 [main] INFO  java.lang.Class - Payee page loaded successfully
+16:06:05.411 [main] INFO  java.lang.Class - Driver initialized successfully
+16:06:06.054 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:06:07.996 [main] INFO  java.lang.Class - Payee selected from Menu
+16:06:09.884 [main] INFO  java.lang.Class - Payee details added successfully
+16:06:17.705 [main] INFO  java.lang.Class - Driver initialized successfully
+16:06:18.410 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:06:20.332 [main] INFO  java.lang.Class - Payee selected from Menu
+16:06:20.801 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+16:06:20.829 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
+16:06:26.337 [main] INFO  java.lang.Class - Payee details No validation error message displayed since mandatory fields added
+16:06:34.091 [main] INFO  java.lang.Class - Driver initialized successfully
+16:06:34.737 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:06:36.677 [main] INFO  java.lang.Class - Payee selected from Menu
+16:06:38.531 [main] INFO  java.lang.Class - Payee details added successfully
+16:06:38.565 [main] INFO  java.lang.Class - Payee list should be displayed in ascending order
+16:06:38.790 [main] INFO  java.lang.Class - Payee Name Clicked to display in reverse order
+16:06:38.820 [main] INFO  java.lang.Class - Payee list should be displayed in descending order
+16:06:46.538 [main] INFO  java.lang.Class - Driver initialized successfully

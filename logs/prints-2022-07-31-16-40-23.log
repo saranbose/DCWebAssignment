@@ -1,0 +1,25 @@
+16:38:40.095 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:38:41.712 [main] INFO  java.lang.Class - Payee selected from Menu
+16:38:41.755 [main] INFO  java.lang.Class - Payee page loaded successfully
+16:38:43.065 [main] INFO  java.lang.Class - Driver initialized successfully
+16:38:44.096 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:38:45.651 [main] INFO  java.lang.Class - Payee selected from Menu
+16:38:48.183 [main] INFO  java.lang.Class - Payee details added successfully
+16:38:49.360 [main] INFO  java.lang.Class - Driver initialized successfully
+16:38:50.230 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:38:51.822 [main] INFO  java.lang.Class - Payee selected from Menu
+16:38:52.067 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+16:38:52.108 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
+16:38:57.532 [main] INFO  java.lang.Class - Payee details No validation error message displayed since mandatory fields added
+16:38:58.723 [main] INFO  java.lang.Class - Driver initialized successfully
+16:38:59.407 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:39:00.985 [main] INFO  java.lang.Class - Payee selected from Menu
+16:39:03.472 [main] INFO  java.lang.Class - Payee details added successfully
+16:39:03.538 [main] INFO  java.lang.Class - Payee list should be displayed in ascending order
+16:39:03.606 [main] INFO  java.lang.Class - Payee Name Clicked to display in reverse order
+16:39:03.640 [main] INFO  java.lang.Class - Payee list should be displayed in descending order
+16:39:04.888 [main] INFO  java.lang.Class - Driver initialized successfully
+16:39:05.857 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:39:07.296 [main] INFO  java.lang.Class - Current balanced for Everyday and Bills Account saved successfully
+16:40:20.739 [main] INFO  java.lang.Class - Driver initialized successfully
+16:40:21.525 [main] INFO  java.lang.Class - BNZ Demo Website opened

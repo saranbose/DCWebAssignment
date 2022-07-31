@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="43.26" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="webdriver.chrome.driver" value="C:\Eclipse\BrowserDriver\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Eclipse\eclipse-workspace\TestFramework\target\test-classes;C:\Eclipse\eclipse-workspace\TestFramework\target\classes;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\bsara\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\bsara\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\bsara\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\bsara\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bsara\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bsara\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\bsara\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\bsara\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\bsara\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\bsara\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\bsara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bsara\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\bsara\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\bsara\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\bsara\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\bsara\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\bsara\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\bsara\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\bsara\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar;C:\Users\bsara\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bsara\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bsara\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bsara\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\bsara\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\bsara\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\bsara\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Pacific/Auckland"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NZ"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\bsara\AppData\Local\Temp\surefire16302776283429932092\surefirebooter-20220703132212756_3.jar C:\Users\bsara\AppData\Local\Temp\surefire16302776283429932092 2022-07-03T13-22-12_503-jvmRun1 surefire-20220703132212756_1tmp surefire_0-20220703132212756_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Eclipse\eclipse-workspace\TestFramework\target\test-classes;C:\Eclipse\eclipse-workspace\TestFramework\target\classes;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\bsara\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\bsara\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\bsara\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\bsara\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bsara\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bsara\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\bsara\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\bsara\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\bsara\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\bsara\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\bsara\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\bsara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bsara\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\bsara\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\bsara\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\bsara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\bsara\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\bsara\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\bsara\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\bsara\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\bsara\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\bsara\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar;C:\Users\bsara\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bsara\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bsara\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bsara\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\bsara\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\bsara\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\bsara\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bsara"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Eclipse\eclipse-workspace\TestFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\bsara\AppData\Local\Temp\surefire16302776283429932092\surefirebooter-20220703132212756_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="bsara"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\bsara\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\bsara\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="C:\Eclipse\eclipse-workspace\TestFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Eclipse\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\dotnet\;C:\Users\bsara\AppData\Local\Microsoft\WindowsApps;C:\Users\bsara\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="basePageNavigation" classname="SaravanaFramework.ValidateNavigationBar" time="2.046">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55844
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 03, 2022 1:22:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 03, 2022 1:22:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation[non-restricteduser@abc.com, non-restrictedpwd, Non-Restricted User](1)" classname="SaravanaFramework.HomePage" time="12.585">
+    <system-out><![CDATA[Non-Restricted User
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58968
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 03, 2022 1:22:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 03, 2022 1:22:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation[restricteduser@abc.com, restrictedpwd, Restricted User](2)" classname="SaravanaFramework.HomePage" time="12.775">
+    <system-out><![CDATA[Restricted User
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51522
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 03, 2022 1:22:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 03, 2022 1:22:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="SaravanaFramework.ValidateTitle" time="2.211">
+    <failure message="expected [Featured Courses123] but found [Featured Courses]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Featured Courses123] but found [Featured Courses]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at SaravanaFramework.ValidateTitle.basePageNavigation(ValidateTitle.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55512
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 03, 2022 1:22:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 03, 2022 1:22:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+</testsuite>

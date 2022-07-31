@@ -1,0 +1,22 @@
+15:31:35.519 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0e032e1c71784f82
+15:31:35.680 [main] INFO  java.lang.Class - Driver initialized successfully
+15:31:36.878 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:31:38.419 [main] INFO  java.lang.Class - Payee selected from Menu
+15:31:38.460 [main] INFO  java.lang.Class - Payee page loaded successfully
+15:31:38.466 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:31:39.717 [main] INFO  java.lang.Class - Driver initialized successfully
+15:31:40.377 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:31:41.935 [main] INFO  java.lang.Class - Payee selected from Menu
+15:31:44.466 [main] INFO  java.lang.Class - Payee details added successfully
+15:31:44.466 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:31:45.676 [main] INFO  java.lang.Class - Driver initialized successfully
+15:31:46.710 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:31:48.320 [main] INFO  java.lang.Class - Payee selected from Menu
+15:31:48.567 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+15:31:48.607 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
+15:31:54.506 [main] INFO  java.lang.Class - Payee details No validation error message displayed since mandatory fields added
+15:31:54.506 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:31:55.773 [main] INFO  java.lang.Class - Driver initialized successfully
+15:31:56.508 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:31:58.114 [main] INFO  java.lang.Class - Payee selected from Menu
+15:32:00.614 [main] INFO  java.lang.Class - Payee details added successfully

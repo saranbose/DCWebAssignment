@@ -1,0 +1,3 @@
+16:47:08.884 [main] INFO  java.lang.Class - Current balanced for Everyday and Bills Account saved successfully
+16:47:12.028 [main] INFO  java.lang.Class - Payment Transfer triggered successfully
+16:47:12.053 [main] INFO  java.lang.Class - Current balance of everyday and bills account should be correct after Payment Transferred

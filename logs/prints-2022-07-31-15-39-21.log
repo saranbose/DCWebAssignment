@@ -1,0 +1,23 @@
+15:39:01.217 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa0f06882ed865a03
+15:39:01.388 [main] INFO  java.lang.Class - Driver initialized successfully
+15:39:02.149 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:39:03.750 [main] INFO  java.lang.Class - Payee selected from Menu
+15:39:03.795 [main] INFO  java.lang.Class - Payee page loaded successfully
+15:39:03.797 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:39:05.131 [main] INFO  java.lang.Class - Driver initialized successfully
+15:39:05.797 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:39:07.418 [main] INFO  java.lang.Class - Payee selected from Menu
+15:39:09.917 [main] INFO  java.lang.Class - Payee details added successfully
+15:39:09.917 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:39:11.265 [main] INFO  java.lang.Class - Driver initialized successfully
+15:39:12.154 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:39:13.757 [main] INFO  java.lang.Class - Payee selected from Menu
+15:39:14.743 [main] INFO  java.lang.Class - Driver initialized successfully
+15:39:15.419 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:39:17.023 [main] INFO  java.lang.Class - Payee selected from Menu
+15:39:19.554 [main] INFO  java.lang.Class - Payee details added successfully
+15:39:19.621 [main] INFO  java.lang.Class - Payee list should be displayed in ascending order
+15:39:19.660 [main] INFO  java.lang.Class - Payee Name Clicked to display in reverse order
+15:39:19.695 [main] INFO  java.lang.Class - Payee list should be displayed in descending order
+15:39:19.696 [AsyncHttpClient-1-13] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:39:21.009 [main] INFO  java.lang.Class - Driver initialized successfully

@@ -1,0 +1,25 @@
+16:20:38.605 [main] INFO  java.lang.Class - Driver initialized successfully
+16:20:39.450 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:20:41.423 [main] INFO  java.lang.Class - Payee selected from Menu
+16:20:41.439 [main] INFO  java.lang.Class - Payee page loaded successfully
+16:20:49.103 [main] INFO  java.lang.Class - Driver initialized successfully
+16:20:49.750 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:20:51.665 [main] INFO  java.lang.Class - Payee selected from Menu
+16:20:53.565 [main] INFO  java.lang.Class - Payee details added successfully
+16:21:01.778 [main] INFO  java.lang.Class - Driver initialized successfully
+16:21:02.516 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:21:04.485 [main] INFO  java.lang.Class - Payee selected from Menu
+16:21:04.949 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+16:21:04.979 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
+16:21:10.479 [main] INFO  java.lang.Class - Payee details No validation error message displayed since mandatory fields added
+16:21:18.019 [main] INFO  java.lang.Class - Driver initialized successfully
+16:21:18.707 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:21:20.870 [main] INFO  java.lang.Class - Payee selected from Menu
+16:21:22.749 [main] INFO  java.lang.Class - Payee details added successfully
+16:21:22.784 [main] INFO  java.lang.Class - Payee list should be displayed in ascending order
+16:21:23.005 [main] INFO  java.lang.Class - Payee Name Clicked to display in reverse order
+16:21:23.031 [main] INFO  java.lang.Class - Payee list should be displayed in descending order
+16:21:30.874 [main] INFO  java.lang.Class - Driver initialized successfully
+16:21:31.590 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:21:33.047 [main] INFO  java.lang.Class - Current balanced for Everyday and Bills Account saved successfully
+16:21:45.776 [main] INFO  java.lang.Class - Payment Transfer triggered successfully

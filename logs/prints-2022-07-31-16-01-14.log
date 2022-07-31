@@ -1,0 +1,25 @@
+15:57:52.858 [main] INFO  java.lang.Class - Payee Name Clicked to display in reverse order
+15:57:52.894 [main] INFO  java.lang.Class - Payee list should be displayed in descending order
+15:58:00.732 [main] INFO  java.lang.Class - Driver initialized successfully
+15:58:01.397 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:58:02.947 [main] INFO  java.lang.Class - Current balanced for Everyday and Bills Account saved successfully
+16:00:29.198 [main] INFO  java.lang.Class - Driver initialized successfully
+16:00:29.992 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:00:31.902 [main] INFO  java.lang.Class - Payee selected from Menu
+16:00:31.918 [main] INFO  java.lang.Class - Payee page loaded successfully
+16:00:39.969 [main] INFO  java.lang.Class - Driver initialized successfully
+16:00:40.588 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:00:42.623 [main] INFO  java.lang.Class - Payee selected from Menu
+16:00:45.130 [main] INFO  java.lang.Class - Payee details added successfully
+16:00:53.037 [main] INFO  java.lang.Class - Driver initialized successfully
+16:00:53.722 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:00:55.722 [main] INFO  java.lang.Class - Payee selected from Menu
+16:00:56.206 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+16:00:56.245 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
+16:01:01.726 [main] INFO  java.lang.Class - Payee details No validation error message displayed since mandatory fields added
+16:01:09.396 [main] INFO  java.lang.Class - Driver initialized successfully
+16:01:10.037 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:01:11.976 [main] INFO  java.lang.Class - Payee selected from Menu
+16:01:13.852 [main] INFO  java.lang.Class - Payee details added successfully
+16:01:13.886 [main] INFO  java.lang.Class - Payee list should be displayed in ascending order
+16:01:14.111 [main] INFO  java.lang.Class - Payee Name Clicked to display in reverse order

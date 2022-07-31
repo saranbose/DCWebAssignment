@@ -1,0 +1,25 @@
+16:01:14.143 [main] INFO  java.lang.Class - Payee list should be displayed in descending order
+16:01:21.977 [main] INFO  java.lang.Class - Driver initialized successfully
+16:01:22.601 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:01:24.023 [main] INFO  java.lang.Class - Current balanced for Everyday and Bills Account saved successfully
+16:03:13.081 [main] INFO  java.lang.Class - Driver initialized successfully
+16:03:13.766 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:03:15.665 [main] INFO  java.lang.Class - Payee selected from Menu
+16:03:15.682 [main] INFO  java.lang.Class - Payee page loaded successfully
+16:03:23.504 [main] INFO  java.lang.Class - Driver initialized successfully
+16:03:24.150 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:03:26.052 [main] INFO  java.lang.Class - Payee selected from Menu
+16:03:27.939 [main] INFO  java.lang.Class - Payee details added successfully
+16:03:35.724 [main] INFO  java.lang.Class - Driver initialized successfully
+16:03:36.384 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:03:38.307 [main] INFO  java.lang.Class - Payee selected from Menu
+16:03:38.777 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+16:03:38.813 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
+16:03:44.320 [main] INFO  java.lang.Class - Payee details No validation error message displayed since mandatory fields added
+16:03:51.980 [main] INFO  java.lang.Class - Driver initialized successfully
+16:03:52.606 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:03:54.499 [main] INFO  java.lang.Class - Payee selected from Menu
+16:03:56.376 [main] INFO  java.lang.Class - Payee details added successfully
+16:03:56.409 [main] INFO  java.lang.Class - Payee list should be displayed in ascending order
+16:03:56.634 [main] INFO  java.lang.Class - Payee Name Clicked to display in reverse order
+16:03:56.661 [main] INFO  java.lang.Class - Payee list should be displayed in descending order

@@ -1,0 +1,25 @@
+15:52:36.521 [main] INFO  java.lang.Class - Payee selected from Menu
+15:52:38.444 [main] INFO  java.lang.Class - Payee details added successfully
+15:52:46.433 [main] INFO  java.lang.Class - Driver initialized successfully
+15:52:47.140 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:52:49.040 [main] INFO  java.lang.Class - Payee selected from Menu
+15:52:49.518 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+15:52:49.547 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
+15:57:10.013 [main] INFO  java.lang.Class - Driver initialized successfully
+15:57:10.873 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:57:12.792 [main] INFO  java.lang.Class - Payee selected from Menu
+15:57:12.807 [main] INFO  java.lang.Class - Payee page loaded successfully
+15:57:20.862 [main] INFO  java.lang.Class - Driver initialized successfully
+15:57:21.477 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:57:23.416 [main] INFO  java.lang.Class - Payee selected from Menu
+15:57:25.311 [main] INFO  java.lang.Class - Payee details added successfully
+15:57:33.302 [main] INFO  java.lang.Class - Driver initialized successfully
+15:57:33.964 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:57:35.888 [main] INFO  java.lang.Class - Payee selected from Menu
+15:57:36.358 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+15:57:36.392 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
+15:57:48.081 [main] INFO  java.lang.Class - Driver initialized successfully
+15:57:48.745 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:57:50.688 [main] INFO  java.lang.Class - Payee selected from Menu
+15:57:52.599 [main] INFO  java.lang.Class - Payee details added successfully
+15:57:52.636 [main] INFO  java.lang.Class - Payee list should be displayed in ascending order

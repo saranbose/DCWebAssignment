@@ -1,0 +1,25 @@
+16:29:32.740 [main] INFO  java.lang.Class - Current balanced for Everyday and Bills Account saved successfully
+16:32:33.399 [main] INFO  java.lang.Class - Driver initialized successfully
+16:32:34.085 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:32:35.991 [main] INFO  java.lang.Class - Payee selected from Menu
+16:32:36.008 [main] INFO  java.lang.Class - Payee page loaded successfully
+16:32:43.848 [main] INFO  java.lang.Class - Driver initialized successfully
+16:32:44.495 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:32:46.471 [main] INFO  java.lang.Class - Payee selected from Menu
+16:32:48.369 [main] INFO  java.lang.Class - Payee details added successfully
+16:32:56.048 [main] INFO  java.lang.Class - Driver initialized successfully
+16:32:56.759 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:32:58.670 [main] INFO  java.lang.Class - Payee selected from Menu
+16:32:59.140 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+16:32:59.171 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
+16:33:04.671 [main] INFO  java.lang.Class - Payee details No validation error message displayed since mandatory fields added
+16:33:12.214 [main] INFO  java.lang.Class - Driver initialized successfully
+16:33:12.834 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:33:14.790 [main] INFO  java.lang.Class - Payee selected from Menu
+16:33:16.683 [main] INFO  java.lang.Class - Payee details added successfully
+16:33:16.716 [main] INFO  java.lang.Class - Payee list should be displayed in ascending order
+16:33:16.943 [main] INFO  java.lang.Class - Payee Name Clicked to display in reverse order
+16:33:16.974 [main] INFO  java.lang.Class - Payee list should be displayed in descending order
+16:33:24.616 [main] INFO  java.lang.Class - Driver initialized successfully
+16:33:25.261 [main] INFO  java.lang.Class - BNZ Demo Website opened
+16:33:26.669 [main] INFO  java.lang.Class - Current balanced for Everyday and Bills Account saved successfully

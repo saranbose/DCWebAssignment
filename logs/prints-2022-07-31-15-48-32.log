@@ -1,0 +1,23 @@
+15:41:48.915 [main] INFO  java.lang.Class - Payee list should be displayed in ascending order
+15:41:48.972 [main] INFO  java.lang.Class - Payee Name Clicked to display in reverse order
+15:41:49.007 [main] INFO  java.lang.Class - Payee list should be displayed in descending order
+15:41:49.008 [AsyncHttpClient-1-13] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:41:50.257 [main] INFO  java.lang.Class - Driver initialized successfully
+15:41:50.930 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:41:52.371 [main] INFO  java.lang.Class - Current balanced for Everyday and Bills Account saved successfully
+15:41:55.964 [main] INFO  java.lang.Class - Payment Transfer triggered successfully
+15:41:55.985 [main] INFO  java.lang.Class - Current balance of everyday and bills account should be correct after Payment Transferred
+15:41:55.986 [AsyncHttpClient-1-16] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:48:13.769 [main] INFO  java.lang.Class - Driver initialized successfully
+15:48:14.611 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:48:16.300 [main] INFO  java.lang.Class - Payee selected from Menu
+15:48:16.347 [main] INFO  java.lang.Class - Payee page loaded successfully
+15:48:17.624 [main] INFO  java.lang.Class - Driver initialized successfully
+15:48:18.333 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:48:19.897 [main] INFO  java.lang.Class - Payee selected from Menu
+15:48:22.413 [main] INFO  java.lang.Class - Payee details added successfully
+15:48:23.608 [main] INFO  java.lang.Class - Driver initialized successfully
+15:48:24.280 [main] INFO  java.lang.Class - BNZ Demo Website opened
+15:48:25.893 [main] INFO  java.lang.Class - Payee selected from Menu
+15:48:26.148 [main] INFO  java.lang.Class - Tring to add Payee details added without any mandatory fields
+15:48:26.187 [main] INFO  java.lang.Class - Payee Name validation error displayed since mandatory fields are missing
